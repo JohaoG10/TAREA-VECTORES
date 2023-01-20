@@ -17,9 +17,9 @@ int main(){
         fprintf(archivo,"%d\n",i);
     }
     while(!feof(archivo)){
-        fscanf(archivo2, "%d", &num);
+        fscanf(archivo, "%d", &num);
     if(num%3==0){
-        fprintf(archivo,"multiplo de 3");
+        fprintf(archivo2,"multiplo de 3");
     }
     else{
         fprintf(archivo2,"%d\n",num);
